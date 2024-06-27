@@ -11,11 +11,7 @@ name: Python Application CI/CD
 
 on:
   push:
-    branches:
-      - mastrer
-  pull_request:
-    branches:
-      - master
+    branches: ["master"]
 
 jobs:
   build:
